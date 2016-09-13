@@ -3,17 +3,17 @@
 #適用データのクラス数
 CLASS=61
 #train dataのありか
-TRAIN=s_suzuki2016/train_lmdb
+TRAIN=jnns_lim/train_lmdb
 #test dataのありか
-TEST=s_suzuki2016/test_lmdb
+TEST=jnns_lim/test_lmdb
 #meanファイルのありか
-MEAN=s_suzuki2016/curet_mean.binaryproto
+MEAN=jnns_lim/curet_mean.binaryproto
 #作業ディレクトリ(solverとか置きたいとこ)
-DIR=s_suzuki2016
+DIR=jnns_lim
 
 
 
-#まずモデルを導入
+#まずモデルを導入(今回はCaffeNet)
 ./scripts/download_model_binary.py models/bvlc_reference_caffenet/
 
 #必要なprototxtファイルをコピー
