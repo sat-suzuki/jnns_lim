@@ -3,6 +3,6 @@
     
 ##内容
 * jnns_1.sh
-  * Shounoらや鈴木らの手法をDeep Learningフレームワークの一つであるCaffe(http://caffe.berkeleyvision.org/) で実装した．
+  * Shounoらの手法をDeep Learningフレームワークの一つであるCaffe(http://caffe.berkeleyvision.org/) で実装した．
     
 ##ライセンスと引用
