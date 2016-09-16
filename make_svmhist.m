@@ -1,7 +1,7 @@
 % select class(you must select (high_class) > (low_class))
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-low_class = 6;
-high_class = 7;
+low_class = 4;
+high_class = 6;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -36,9 +36,10 @@ end
 
 p = A*w + b;
 q = B*w + b;
-[n1,x1] = hist(p);
-[n1,x1] = hist(p);
-[n2,x2] = hist(q);
+
+
+[n1,x1] = hist(p,10);
+[n2,x2] = hist(q,10);
 % ヒストグラムの描画
 h1 = bar(x1,n1,'hist');
 hold on
@@ -47,8 +48,8 @@ h2 = bar(x2,n2,'hist');
 set(h1,'FaceAlpha',0.2)
 set(h2,'FaceAlpha',0.2,'FaceColor','r')
 % 各ビンにおける個数とその位置を取得
-[n1,x1] = hist(p);
-[n2,x2] = hist(q);
+[n1,x1] = hist(p,10);
+[n2,x2] = hist(q,10);
 % ヒストグラムの描画
 h1 = bar(x1,n1,'hist');
 hold on
