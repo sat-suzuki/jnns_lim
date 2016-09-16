@@ -24,8 +24,8 @@
 	Volume = {9489},
 	Year = {2015}}
    
-   [2] Satoshi Suzuki, Hayaru Shouno, "An Architecture Design Method of Deep Convolutional Neural Network", The 23rd International Conference on Neural Information Processing (ICONIP2016) (2016)
-   @inproceedings{Suzuki16ICONIP,
+  [2] Satoshi Suzuki, Hayaru Shouno, "An Architecture Design Method of Deep Convolutional Neural Network", The 23rd International Conference on Neural Information Processing (ICONIP2016) (2016)
+  @inproceedings{Suzuki16ICONIP,
 	Author = {Suzuki, S. and Shouno, H.},
 	Booktitle = {Press},
 	Pages = {},
