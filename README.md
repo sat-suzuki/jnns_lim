@@ -10,7 +10,7 @@
 ##ライセンスと引用
 * 
 
-'''
+```
   [1] Hayaru Shouno, Satoshi Suzuki, Shoji Kido, "A Transfer Learning Method with Deep Convolutional Neural Network for Diffuse Lung Disease Classification", The 22nd International Conference on Neural Information Processing (ICONIP2015) (2015)
-'''
+```
 
