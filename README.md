@@ -1,15 +1,18 @@
 # JNNS時限研究会2016
+
+## Description
 * 9/26,27に行われる日本神経回路学会時限研究会 (http://daemon.inf.uec.ac.jp/ja/events/ei4o9x) の鈴木担当分のソースコードである．
     
-##Contents
+## Contents
 * jnns_1.sh
   * Shounoら[1]の手法をDeep Learningフレームワークの一つであるCaffe(http://caffe.berkeleyvision.org/) で実装した．    
 * feature.py
   * 学習済みの.caffemodelからcaffeのpythonラッパーであるpycaffeを用いて特徴量を抽出するpythonコード．
-* make_hist_mat.m,make_svmhist.m
+* make_hist_mat.m
+* make_svmhist.m
   * Shounoら[1]やSuzukiら[2]で用いられているSVMヒストグラムのmatlabソースコード．
 
-##Citation
+## Citation
 * 手法の詳細及び各自の文献への引用は下記を参照されたい．
 
 ```
@@ -36,7 +39,7 @@
 	Year = {2016}}
 ```
 
-##Author
+## Author
 Satoshi Suzuki <sat.suzuki_at_uec.ac.jp>
     
 ## License
