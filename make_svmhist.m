@@ -38,8 +38,6 @@ p = A*w + b;
 q = B*w + b;
 
 
-[n1,x1] = hist(p,10);
-[n2,x2] = hist(q,10);
 % ヒストグラムの描画
 h1 = bar(x1,n1,'hist');
 hold on
