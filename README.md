@@ -1,4 +1,4 @@
-# jnns_lim  
+# JNNS時限研究会2016
 * 9/26,27に行われる日本神経回路学会時限研究会 (http://daemon.inf.uec.ac.jp/ja/events/ei4o9x) の鈴木担当分のソースコードである．
     
 ##内容
@@ -37,4 +37,4 @@
 ```
 
 ##Author
-Satoshi Suzuki<sat.suzuki_at_uec.ac.jp>
+Satoshi Suzuki <sat.suzuki_at_uec.ac.jp>
