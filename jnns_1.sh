@@ -3,9 +3,9 @@
 #適用データのクラス数
 CLASS=61
 #train dataのありか
-TRAIN=jnns_lim/train_lmdb
+TRAIN=jnns_lim/train_lmdb_small
 #test dataのありか
-TEST=jnns_lim/test_lmdb
+TEST=jnns_lim/test_lmdb_small
 #meanファイルのありか
 MEAN=jnns_lim/curet_mean.binaryproto
 #作業ディレクトリ(solverとか置きたいとこ)
