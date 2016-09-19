@@ -35,5 +35,6 @@ sed -i -e "s@models/bvlc_reference_caffenet/caffenet_train@transfer_caffenet@g" 
 sed -i -e "s@test_iter: 1000@test_iter: 12@g" ${DIR}/solver.prototxt
 sed -i -e "s@models/bvlc_reference_caffenet/train_val.prototxt@${DIR}/train_val.prototxt@g" ${DIR}/solver.prototxt
 
+
 #学習開始
 sudo build/tools/caffe train -solver ${DIR}/solver.prototxt -weights models/bvlc_reference_caffenet/bvlc_reference_caffenet.caffemodel
