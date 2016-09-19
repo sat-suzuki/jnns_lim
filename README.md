@@ -11,6 +11,8 @@
 * make_hist_mat.m
 * make_svmhist.m
   * Shounoら[1]やSuzukiら[2]で用いられているSVMヒストグラムのmatlabソースコード．
+* その他
+  * 上記の実行に必要なファイルなど．詳細は当日説明する．
 
 ## Citation
 * 手法の詳細及び各自の文献への引用は下記を参照されたい．
